@@ -8,3 +8,4 @@
 * Exemple:
 
 ![Image](Example_grid_addition.png)
+![Image](Example_grid_addition2.png)
