@@ -1,20 +1,22 @@
 
-//	****************************************************************************************
-//	*******														                     *******
+//	************************************************************************************************
+//	*******				                                                         *******
 //	******* 		   Macro for well names +/- Grid addition on an image	         *******
 //	******* 		 to create a full plate snapshot from any opened image	         *******
 //	*******  	Fabien Kuttler, 2022, EPFL-SV-PTECH-PTCB BSF, http://bsf.epfl.ch	 *******
-//	*******																		     *******
-//	****************************************************************************************
+//	*******								                         *******
+//	************************************************************************************************
 
 while (nImages == 0) {
 	waitForUser("please open the image on which the grids/well names have to be applied");
 }
 getDimensions(width, height, channels, slices, frames);
 run("RGB Color");
-title = getTitle();
+title = getTitle()
+;
 
-formatPlate = newArray("384-well", "96-well", "60-well", "48-well", "24-well", "12-well", "6-well", "x-well ( = FULL snapshot from well A01 to X..)", "x-well partial plate snapshot ( = SELECT from well X.. to Y..)");
+
+formatPlate = newArray("384-well", "96-well", "60-well", "48-well", "24-well", "12-well", "6-well", "x-well ( = FULL snapshot from well A01 to X..)", "x-well partial plate snapshot ( = SELECT from well X.. to Y..)");
 grid = newArray("YES", "NO");
 colorChoice = newArray("white", "black", "red", "yellow");
 Dialog.create("Add well names on a plate snapshot");
@@ -22,7 +24,8 @@ Dialog.addRadioButtonGroup("Plate format", formatPlate, 9, 1, "96-well");
 Dialog.addChoice("Add grids in addition to names", grid);
 Dialog.addRadioButtonGroup("Grid color", colorChoice, 1, 4, "white");
 Dialog.show();
-formatPlate = Dialog.getRadioButton();
+
+formatPlate = Dialog.getRadioButton();
 grid = Dialog.getChoice();
 colorChoice = Dialog.getRadioButton();
 
