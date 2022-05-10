@@ -6,7 +6,7 @@
 * Labels of wells can be applied alone or with the grid templates
 ## Example: 6 images from a 6-well plate
 ![Image](https://github.com/FabienKuttler/Grid_addition_snapshot/blob/main/Examples/Example1.png)
-## Example: full 24-well plate 
+## Example: full 24-well plate with spheroids
 ![Image](https://github.com/FabienKuttler/Grid_addition_snapshot/blob/main/Examples/Example2.png)
 ## Example: full 96-well plate
 ![Image](https://github.com/FabienKuttler/Grid_addition_snapshot/blob/main/Examples/Example3.png)
