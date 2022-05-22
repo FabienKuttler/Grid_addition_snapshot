@@ -10,5 +10,5 @@
 ![Image](https://github.com/FabienKuttler/Grid_addition_snapshot/blob/main/Examples/Example2.png)
 ## Example: full 96-well plate
 ![Image](https://github.com/FabienKuttler/Grid_addition_snapshot/blob/main/Examples/Example3.png)
-## Example: custom partial plate plate 
+## Example: custom partial plate
 ![Image](https://github.com/FabienKuttler/Grid_addition_snapshot/blob/main/Examples/Example4.png)
