@@ -12,3 +12,5 @@
 ![Image](https://github.com/FabienKuttler/Grid_addition_snapshot/blob/main/Examples/Example3.png)
 ## Example: custom partial plate
 ![Image](https://github.com/FabienKuttler/Grid_addition_snapshot/blob/main/Examples/Example4.png)
+## Installation
+This is a small macro for Fiji. It can be copy/pasted into the plugins folders of the Fiji installation. It is then available in Fiji's Plugins menu
