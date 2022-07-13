@@ -14,9 +14,7 @@ while (nImages == 0) {
 }
 getDimensions(width, height, channels, slices, frames);
 run("RGB Color");
-title = getTitle()
-;
-
+title = getTitle();
 
 formatPlate = newArray("384-well", "96-well", "60-well", "48-well", "24-well", "12-well", "6-well", "CUSTOM overview (from well X to well Y)");
 grid = newArray("Well names + Grid lines", "Well names only", "Grid lines only");
